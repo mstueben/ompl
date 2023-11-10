@@ -244,7 +244,6 @@ void PathSection::interpolateL1FiberLast(HeadPtr &head)
             sectionBaseStateIndices_.push_back(head->getBaseStateIndexAt(k));
         }
     }
-    sanityCheck(head);
 }
 
 void PathSection::interpolateL2(HeadPtr &head)
